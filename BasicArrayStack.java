@@ -7,7 +7,7 @@ public class BasicArrayStack<X> {
 	private int stackPointer;
 	
 	public BasicStack() {
-		ArrayList<X> data = new ArrayList<X>();
+		data = (X[]) new Object([1000]);
 		stackPointer = 0;
 		
 	}
